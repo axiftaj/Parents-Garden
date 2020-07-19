@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSpecialListActivity">
+
+    <TextView
+        android:id="@+id/registerUser"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Register Specialists"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/registerUser"
+        android:layout_centerVertical="true"
+        android:id="@+id/nameET"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/nameET"
+        android:layout_centerVertical="true"
+        android:id="@+id/userNameET"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_below="@+id/userNameET"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/emailET"
+        android:layout_centerVertical="true"
+        android:id="@+id/passwordEt"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/passwordEt"
+        android:layout_centerVertical="true"
+        android:id="@+id/specialistET"
+        android:inputType="textPersonName"
+        android:hint="Specialisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/regisertBtn"
+        android:text="Register"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/specialistET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/have_an_accountTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have An Account ? Login"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/regisertBtn"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "252411120403",
+    "firebase_url": "https://parents-gareden.firebaseio.com",
+    "project_id": "parents-gareden",
+    "storage_bucket": "parents-gareden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252411120403:android:233aa8b6cf7f0fd1d1e8e6",
+        "android_client_info": {
+          "package_name": "com.example.pg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252411120403-q2b49d5t73cifi9b1h5sdsq7h2j1hhfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pg",
+            "certificate_hash": "abec2029bd119020187a3691aa0ae1f2e8a9717b"
+          }
+        },
+        {
+          "client_id": "252411120403-rs8vtovd5cr288if10sa06rthgdh18qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0LXEDCfP60v9xgvoRYR9S0Op839j-n8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252411120403-rs8vtovd5cr288if10sa06rthgdh18qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

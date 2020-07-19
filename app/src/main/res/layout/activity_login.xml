@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_centerVertical="true"
+        android:id="@+id/emailET"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@+id/emailET"
+        android:layout_centerVertical="true"
+        android:id="@+id/passwordEt"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/loginBtn"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/recoverPassTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Forgot Passowrd? Recover"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/loginBtn"/>
+
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/not_have_an_accountTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Have An Account ? Register"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="20dp"/>
+
+
+</RelativeLayout>
